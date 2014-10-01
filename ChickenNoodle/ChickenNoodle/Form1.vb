@@ -1,6 +1,9 @@
 ﻿Public Class Form1
 
     Private Sub btnShowRecipe_Click(sender As Object, e As EventArgs) Handles btnShowRecipe.Click
+
+
+
         CookChicken()
         PullTheMeat()
         AddVeggies()
@@ -17,7 +20,7 @@
 
     Sub PullTheMeat()
         MessageBox.Show("Grab a couple of forks")
-        MessageBox.Show("Pull the meat of the bones")
+        MessageBox.Show("Pull the meat off the bones")
     End Sub
 
     Sub AddVeggies()
